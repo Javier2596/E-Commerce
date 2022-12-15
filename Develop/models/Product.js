@@ -11,14 +11,31 @@ Product.init(
   {
     // define columns
     product_name:{
-      type: DataTypes.STRING
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     price:{
-      type: DataTypes.INTEGER
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
     stock:{
-      type: DataTypes.INTEGER
-    }
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    category_id:{
+      type:DataTypes.INTEGER,
+      references: {
+        model: 'category',
+        key: 'id',
+      },
+    },
+    productTag_id:{
+      type:DataTypes.INTEGER,
+      references: {
+        model: 'product_tag',
+        key: 'id',
+      },
+    },
   },
   {
     sequelize,

@@ -9,7 +9,14 @@ Tag.init(
     // define columns
     tag_name:{
       type: DataTypes.STRING
-    }
+    },
+    productTag_id:{
+      type:DataTypes.INTEGER,
+      references: {
+        model: 'product_tag',
+        key: 'id',
+      },
+    },
   },
   {
     sequelize,
