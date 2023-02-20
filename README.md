@@ -35,6 +35,10 @@ This application is not deployed and can only be used through node.js with depen
 
 This application is meant to be used for companies that want to build a company website for users to shop online or check what/ if an item in available. This application is only the backend but it can be paired with front end technologies to create a full stack web application like the one described above. 
 
+## Demo Link 
+
+https://app.castify.com/watch/aebfb923-419e-4765-b91b-5a6c42058688
+
 ## License
 
 Mit License
