@@ -2,9 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-For this challenge I was assigned to create the back end for the e-commerce website using Sequelize, API routes, Models, Seeds file, and an env file. The motivation for completing this challenge was to better my skills in backend web development. I build this project to create a back end for a retail website; the problems this challenge solves are providing the retail company a back end database for their website that there employees can access. It allows employees to find products in their inventory, add new products, delete products. It also allows them to check the products price, availability, and IDs. This assignment is not yet complete since I have to test the get, post, put, delete in insomnia.
+For this challenge I was assigned to create the back end for the e-commerce website using Sequelize, API routes, Models, Seeds file, and an env file. The motivation for completing this challenge was to better my skills in backend web development. I build this project to create a back end for a retail website; the problems this challenge solves are providing the retail company a back end database for their website that there employees can access. It allows employees to find products in their inventory, add new products, delete products. It also allows them to check the products price, availability, and IDs. The biggest challenge with this application was getting the put route and post routes to function without errors. The only post route I was able to get to work was in the categories route. The other post and put routes are still a work in progress.
 
 ## User Story
 
@@ -31,7 +29,12 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+This application is not deployed and can only be used through node.js with dependencies dotenv, express, mysql2, and sequelize. After running npm start the application will run and console.log "Now Listening". From this point on the user will need to check the routes through a desktop application such as Insomnia to check the routes and see the data. 
+
+## Usage
+
+This application is meant to be used for companies that want to build a company website for users to shop online or check what/ if an item in available. This application is only the backend but it can be paired with front end technologies to create a full stack web application like the one described above. 
 
 ## License
+
 Mit License
